@@ -1,0 +1,4 @@
+﻿  Lab4.cpp
+D:\instruments\VisualStudioProjects\OOP\Lab4\Lab4\Lab4.cpp(28,20): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\instruments\VisualStudioProjects\OOP\Lab4\Lab4\Lab4.cpp(31,22): warning C4305: 'argument': truncation from 'double' to 'float'
+  Lab4.vcxproj -> D:\instruments\VisualStudioProjects\OOP\Lab4\x64\Debug\Lab4.exe
