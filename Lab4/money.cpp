@@ -168,6 +168,7 @@ money::money(long grn, unsigned char coin)
     this->coin = coin;
 }
 
+//Перенавантаження оператора +
 money money::operator+(const money& other)
 {
     money tmp;
@@ -184,6 +185,7 @@ money money::operator+(const money& other)
     return tmp;
 }
 
+//Перенавантаження оператора -
 money money::operator-(const money& other)
 {
     money tmp;
@@ -200,6 +202,7 @@ money money::operator-(const money& other)
     return tmp;
 }
 
+//Перенавантаження оператора >
 bool money::operator>(const money& other)
 {
     if (grn > other.grn)
@@ -216,6 +219,7 @@ bool money::operator>(const money& other)
     }
 }
 
+//Перенавантаження оператора <
 bool money::operator<(const money& other)
 {
     if (grn < other.grn)
@@ -232,6 +236,7 @@ bool money::operator<(const money& other)
     }
 }
 
+//Перенавантаження оператора ==
 bool money::operator==(const money& other)
 {
     return (grn == other.grn && coin == other.coin);
